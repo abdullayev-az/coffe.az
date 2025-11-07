@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Applestore.az</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-logo"><img src="image/apple-logo.png"><span>AppleStore</span></div>
+            <div class="nav-texts">
+                <ul>
+                    <li>
+                        <a href="" class="home">Home</a>
+                        <a href="" class="shop">Shop</a>
+                        <a href="" class="page">Pages</a>
+                        <a href="" class="about">About</a>
+                        <a href="" class="blog">Blog</a>
+                        <a href="" class="contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-icons">
+                <ul>
+                    <li class="seacrh"><img src="image/seacrh.png"></li>
+                    <li class="like"><img src="image/like.png"></li>
+                    <li class="market"><img src="image/market.png"></li>
+                    <li class="user"><img src="image/profile.png"></li>
+                    <li class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="offcanvas-menu">
+            <div class="offcanvas">
+                <div class="offcanvas-header">
+                    <div class="logo"><img src="image/apple-logo.png"><span>AppleStore</span></div>
+                    <div class="close"><img src="image/close.png" ></div>
+                </div>
+                <hr>
+                <div class="offcanvas-body">
+                    <ul>
+                        <li>
+                            <a href="" class="home">Home</a>
+                            <a href="" class="shop">Shop</a>
+                            <a href="" class="page">Pages</a>
+                            <a href="" class="about">About</a>
+                            <a href="" class="blog">Blog</a>
+                            <a href="" class="contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="userpage-menu">
+            <img class="userclose" src="image/close.png" >
+            <div class="userpage">
+                    <h1>Sign In</h1>
+                    <form action="">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <p> Forgot password? <a href=""> Sing Up</a></p>
+                        <input type="button" value="Sign In"></input>
+                    </form>
+                    <hr style="width: 100%;margin-top: 30px;">
+                    <form action="">
+                        <button><img src="image/facebook.png" > Login with Facebook</button>
+                        <button><img src="image/google.png" > Login with Google</button>
+                    </form>
+            </div>
+        </div>
+        <div class="searchpage-menu">
+            <div class="searchpage">
+                <input type="search" placeholder="Search">
+                <img class="searchclose" src="image/close.png" >
+            </div>
+            <div class="search-click"></div>
+        </div>
+    </header>
+    <main>
+        <div class="slider-menu">
+            <div class="slider-name" >
+                <p><img src="image/fire.png"> Hot Deal In This Week</p>
+                <h1>Smart Digital Watch</h1>
+                <div class="slider-name-shop">
+                    <button><img src="image/market.png"> Shop Now</button>
+                </div>
+            </div>
+            <div class="slider-product" >
+                <img class="product-1" src="image/watch.png">
+                <div class="price"><span>From</span><span>490$</span></div>
+            </div>
+        </div>
+    </main>
+    <section class="category-main ">
+        <div class="categorypage">
+            <p><img src="image/category.png" alt=""> Categories</p>
+            <div class="category-arrow">
+                <h1>Browse by Category</h1>
+                <div class="arrow">
+                    <button class="slider-left-arrow"><img src="image/left-arrow.png"></button>
+                    <button class="slider-right-arrow"><img src="image/arrow-right.png"></button>
+                </div>
+            </div>
+            <div class=" slider-container">
+                <div class="slider-content">
+                    <div class="item">
+                        <img src="image/category-product1.png">
+                        <h4>IMAc</h4>
+                    </div>
+                    <div class="item">
+                        <img src="image/category-product2.png">
+                        <h4>Apple Watch</h4>
+                    </div>
+                    <div class="item">
+                        <img src="image/category-product3.png">
+                        <h4>Iphone</h4>
+                    </div>
+                    <div class="item">
+                        <img src="image/category-product4.png">
+                        <h4>Ipad</h4>
+                    </div>
+                    <div class="item">
+                        <img src="image/category-product5.png">
+                        <h4>Tv & Home</h4>
+                    </div>
+                    <div class="item">
+                        <img src="image/category-product6.png">
+                        <h4>Airpods</h4>
+                    </div>
+                    <div class="item">
+                        <img src="image/category-product8.png">
+                        <h4>AirTags</h4>
+                    </div>
+                    <div class="item">
+                        <img src="image/category-product7.png">
+                        <h4>Accessories</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="musicpage-main">
+        <div class="musicpage">
+            <div class="musicpagetexts" >
+                <p><img src="image/headphone.png" alt=""> Don’t Miss!!</p>
+                <h1>Enhance Your Music Experience</h1>
+                <div class="headphonejoin">
+                    <button>Join Now</button>
+                </div>
+            </div>
+            <div class="musicpageslider">
+                <div class="slidercontent" > 
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="productpage-main">
+        <div class="productpage">
+            <p><img src="image/shopping-basket.png" > Our Product</p>
+            <h1>Explore Our Products</h1>
+            <div class="products">
+                <div class="product-item" >
+                    <div class="item-img">
+                        <img src="image/product-1-removebg-preview.png" alt="">
+                        <div class="btn-group">
+                            <button><img src="image/product-view.png" alt=""></button>
+                            <button>Add to card</button>
+                            <button><img src="image/like.png"></button>
+                        </div>
+                    </div>
+                    <div class="item-name">
+                        <h5>Iphone 16</h5>
+                        <p><span>1200$</span><span>1800$</span></p>
+                    </div>
+                </div>
+                <div class="product-item" >
+                    <div class="item-img">
+                        <img src="image/product-2.png" alt="">
+                        <div class="btn-group">
+                            <button><img src="image/product-view.png" alt=""></button>
+                            <button>Add to card</button>
+                            <button><img src="image/like.png"></button>
+                        </div>
+                    </div>
+                    <div class="item-name">
+                        <h5>Airpods pro 2</h5>
+                        <p><span>199$</span><span>300$</span></p>
+                    </div>
+                </div>
+                <div class="product-item" >
+                    <div class="item-img">
+                        <img src="image/product-3.png" alt="">
+                        <div class="btn-group">
+                            <button><img src="image/product-view.png" alt=""></button>
+                            <button>Add to card</button>
+                            <button><img src="image/like.png"></button>
+                        </div>
+                    </div>
+                    <div class="item-name">
+                        <h5>Apple Watch 10</h5>
+                        <p><span>900$</span><span>1400$</span></p>
+                    </div>
+                </div>
+                <div class="product-item" >
+                    <div class="item-img">
+                        <img src="image/product-4.png" alt="">
+                        <div class="btn-group">
+                            <button><img src="image/product-view.png" alt=""></button>
+                            <button>Add to card</button>
+                            <button><img src="image/like.png"></button>
+                        </div>
+                    </div>
+                    <div class="item-name">
+                        <h5>AirPods MAx</h5>
+                        <p><span>500$</span><span>1100$</span></p>
+                    </div>
+                </div>
+                <div class="product-item" >
+                    <div class="item-img">
+                        <img src="image/product-5.png" alt="">
+                        <div class="btn-group">
+                            <button><img src="image/product-view.png" alt=""></button>
+                            <button>Add to card</button>
+                            <button><img src="image/like.png"></button>
+                        </div>
+                    </div>
+                    <div class="item-name">
+                        <h5>Macbook Air</h5>
+                        <p><span>49$</span><span>120$</span></p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="item-img">
+                        <img src="image/product-6.png" alt="">
+                        <div class="btn-group">
+                            <button><img src="image/product-view.png" alt=""></button>
+                            <button>Add to card</button>
+                            <button><img src="image/like.png"></button>
+                        </div>
+                    </div>
+                    <div class="item-name">
+                        <h5>İpad Pro</h5>
+                        <p><span>349$</span><span>700$</span></p>
+                    </div>
+                </div>
+                <div class="product-item" >
+                    <div class="item-img">
+                        <img src="image/product-7.png" alt="">
+                        <div class="btn-group">
+                            <button><img src="image/product-view.png" alt=""></button>
+                            <button>Add to card</button>
+                            <button><img src="image/like.png"></button>
+                        </div>
+                    </div>
+                    <div class="item-name">
+                        <h5>IMac display</h5>
+                        <p><span>1159$</span><span>2400$</span></p>
+                    </div>
+                </div>
+                <div class="product-item" >
+                    <div class="item-img">
+                        <img src="image/product-9.png" alt="">
+                        <div class="btn-group">
+                            <button><img src="image/product-view.png" alt=""></button>
+                            <button>Add to card</button>
+                            <button><img src="image/like.png"></button>
+                        </div>
+                    </div>
+                    <div class="item-name">
+                        <h5>Apple TV 4K</h5>
+                        <p><span>349$</span><span>850$</span></p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="feedback-main">
+        <div class="feedbackpage">
+            <p><img src="image/quote.png" > Testimonials</p>
+            <div class="category-arrow">
+                <h1>Users Feedback</h1>
+                <div class="arrow">
+                    <button class="slider-left-arrow slider-left-arrows"><img src="image/left-arrow.png"></button>
+                    <button class="slider-right-arrow slider-right-arrows"><img src="image/arrow-right.png"></button>
+                </div>
+            </div>
+            <div class="feedback-container">
+                <div class="feedback-content">
+                    <div class="feedback-item">
+                        <div class="item-texts">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quod asperiores, aperiam reiciendis nostrum a vero ducimus? Incidunt harum at deserunt, necessitatibus maiores iure debitis rerum corrupti deleniti temporibus eius culpa quibusdam magni minus, corporis molestias, possimus labore reprehenderit sequi numquam esse! Debitis quia et inventore, consequatur sit quibusdam sed!</p>
+                        </div>
+                        <div class="item-user">
+                            <img src="image/author1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="feedback-item odd">
+                        <div class="item-texts">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quod asperiores, aperiam reiciendis nostrum a vero ducimus? Incidunt harum at deserunt, necessitatibus maiores iure debitis rerum corrupti deleniti temporibus eius culpa quibusdam magni minus, corporis molestias, possimus labore reprehenderit sequi numquam esse! Debitis quia et inventore, consequatur sit quibusdam sed!</p>
+                        </div>
+                        <div class="item-user">
+                            <img src="image/author2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="feedback-item">
+                        <div class="item-texts">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quod asperiores, aperiam reiciendis nostrum a vero ducimus? Incidunt harum at deserunt, necessitatibus maiores iure debitis rerum corrupti deleniti temporibus eius culpa quibusdam magni minus, corporis molestias, possimus labore reprehenderit sequi numquam esse! Debitis quia et inventore, consequatur sit quibusdam sed!</p>
+                        </div>
+                        <div class="item-user">
+                            <img src="image/author3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="feedback-item odd">
+                        <div class="item-texts">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quod asperiores, aperiam reiciendis nostrum a vero ducimus? Incidunt harum at deserunt, necessitatibus maiores iure debitis rerum corrupti deleniti temporibus eius culpa quibusdam magni minus, corporis molestias, possimus labore reprehenderit sequi numquam esse! Debitis quia et inventore, consequatur sit quibusdam sed!</p>
+                        </div>
+                        <div class="item-user">
+                            <img src="image/author4.png" alt="">
+                        </div>
+                    </div>
+                    <div class="feedback-item">
+                        <div class="item-texts">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quod asperiores, aperiam reiciendis nostrum a vero ducimus? Incidunt harum at deserunt, necessitatibus maiores iure debitis rerum corrupti deleniti temporibus eius culpa quibusdam magni minus, corporis molestias, possimus labore reprehenderit sequi numquam esse! Debitis quia et inventore, consequatur sit quibusdam sed!</p>
+                        </div>
+                        <div class="item-user">
+                            <img src="image/author1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="feedback-item odd">
+                        <div class="item-texts">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quod asperiores, aperiam reiciendis nostrum a vero ducimus? Incidunt harum at deserunt, necessitatibus maiores iure debitis rerum corrupti deleniti temporibus eius culpa quibusdam magni minus, corporis molestias, possimus labore reprehenderit sequi numquam esse! Debitis quia et inventore, consequatur sit quibusdam sed!</p>
+                        </div>
+                        <div class="item-user">
+                            <img src="image/author2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="wonderfull-main">
+        <div class="wonderfullpage">
+            <img src="image/Wonderfull-img.png" alt="">
+            <p>IPHONE 16</p>
+            <h1>WONDERFULL</h1>
+            <div class="wonder-btn-group">
+                <button>Buy</button>
+                <button>Learn More..</button>
+            </div>
+            
+        </div>
+    </section>
+    <section class="most-sold-main">
+        <div class="most-sold-page">
+            <p><img src="image/sold-out.png">Most Sold</p>
+            <h1>Most Sold in eTrade Store</h1>
+            <div class="product-items">
+                <div class="product-item" >
+                    <div class="item-group">
+                        <div class="product-img">
+                            <img src="image/product-1-removebg-preview.png">
+                        </div>
+                        <div class="product-texts">
+                            <p><img src="image/rate.png">100+ <span>Reviews</span></p>
+                            <h4>Name</h4>
+                            <p class="price"><span>$29.99</span><span>$49.99</span></p>
+                        </div>
+                    </div>
+                    <div class="product-button">
+                        <button><img src="image/market.png"></button>
+                        <button><img src="image/like.png"></button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="item-group">
+                        <div class="product-img">
+                            <img src="image/product-2.png">
+                        </div>
+                        <div class="product-texts">
+                            <p><img src="image/rate.png">100+ <span>Reviews</span></p>
+                            <h4>Name</h4>
+                            <p class="price"><span>$29.99</span><span>$49.99</span></p>
+                        </div>
+                    </div>
+                    <div class="product-button">
+                        <button><img src="image/market.png"></button>
+                        <button><img src="image/like.png"></button>
+                    </div>
+                </div>
+                <div class="product-item" >
+                    <div class="item-group">
+                        <div class="product-img">
+                            <img src="image/product-3.png">
+                        </div>
+                        <div class="product-texts">
+                            <p><img src="image/rate.png">100+ <span>Reviews</span></p>
+                            <h4>Name</h4>
+                            <p class="price"><span>$29.99</span><span>$49.99</span></p>
+                        </div>
+                    </div>
+                    <div class="product-button">
+                        <button><img src="image/market.png"></button>
+                        <button><img src="image/like.png"></button>
+                    </div>
+                </div>
+                <div class="product-item" >
+                    <div class="item-group">
+                        <div class="product-img">
+                            <img src="image/product-4.png">
+                        </div>
+                        <div class="product-texts">
+                            <p><img src="image/rate.png">100+ <span>Reviews</span></p>
+                            <h4>Name</h4>
+                            <p class="price"><span>$29.99</span><span>$49.99</span></p>
+                        </div>
+                    </div>
+                    <div class="product-button">
+                        <button><img src="image/market.png"></button>
+                        <button><img src="image/like.png"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="airpods-main">
+        <div class="airpodspage">
+            <h1 id="triggerairpods1">AirPods</h1>
+            <p>with Personalized Spatial Audio</p>
+            <button id="triggerairpods2">Learn More..</button>
+            <picture class="left-picture">
+                <img id="airpodsleft" src="image/airpds-left-medium.png" alt="">
+            </picture>
+            <picture class="right-picture">
+                <img id="airpodsright" src="image/airpds-right-medium.png" alt="">
+            </picture>
+        </div>
+    </section>
+    <section class="collapse-main">
+        <div class="collapsepage">
+            <div class="item-sound" >
+                <img src="image/poster-01.png" alt="">
+                <h1>Rich sound , for less.</h1>
+                <p>Collections</p>
+            </div>
+            <div class="item-sound">
+                <img src="image/poster-02.png" alt="">
+                <p>50% Offer in Winter</p>
+                <h1>Get VR <br> Reality Glass</h1>
+            </div>
+        </div>
+    </section>
+    <section class="contact-main">
+        <div class="contactpage">
+            <p><img src="image/chat.png">NewsLetter</p>
+            <h1>Get weekly update</h1>
+            <div class="input-group">
+                <input type="text" placeholder="example@gmail.com">
+                <button>Send</button>
+            </div>
+        </div>
+    </section>
+    <section class="macbook-main">
+        <div class="macbookpage">
+                <div class="image-main">
+                    <img src="image/macbook-bg.jpg" alt="">
+                </div>
+                <span>MacBook Pro</span>
+                <!--<img src="image/hero_apple_intelligence_headline__d3q0g47xl682_large_2x.png" alt="">-->
+        </div>
+    </section>
+    <section class="empty-div"></section>
+    <section class="service-main">
+        <div class="servicepage">
+            <div class="service-item">
+                <div class="service-img">
+                    <img src="image/service1.png" alt="">
+                </div>
+                <div class="service-texts">
+                    <h4>Fast & Secure Delivery</h4>
+                    <p>Tell about your service.</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <div class="service-img">
+                    <img src="image/service2.png" alt="">
+                </div>
+                <div class="service-texts">
+                    <h4>Money Back Guarantee</h4>
+                    <p>Within 10 days.</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <div class="service-img">
+                    <img src="image/service3.png" alt="">
+                </div>
+                <div class="service-texts">
+                    <h4>24 Hour Return Policy</h4>
+                    <p>No question ask.</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <div class="service-img">
+                    <img src="image/service4.png" alt="">
+                </div>
+                <div class="service-texts">
+                    <h4>Pro Quality Support</h4>
+                    <p>24/7 Live support.</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="support footer-content">
+                <h3>Support</h3>
+                <p>685 Market Street,
+                    Las Vegas, LA 95820,
+                    United States.</p>
+                <p><img src="image/email.png">example@domain.com</p>
+                <p><img src="image/email.png">(+01) 850-315-5862</p>
+            </div>
+            <div class="account footer-content">
+                <h3>Account</h3>
+                <p>My Account</p>
+                <p>Login / Register</p>
+                <p>Cart</p>
+                <p>Wishlist</p>
+                <p>Shop</p>
+            </div>
+            <div class="quick-link footer-content">
+                <h3>Quick-link</h3>
+                <p>Privacy Policy</p>
+                <p>Terms Of Use</p>
+                <p>FAQ</p>
+                <p>Contact</p>
+            </div>
+            <div class="download-app footer-content">
+                <h3>Download-app</h3>
+                <p>Save $3 With App & New User</p>
+                <div class="app-img">
+                    <img src="image/qr.png">
+                    <div class="app-store">
+                        <img src="image/app-store.png">
+                        <img src="image/play-store.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+   
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+</bod

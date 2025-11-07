@@ -1,0 +1,553 @@
+@media only screen and (max-width: 1200px) {
+    .product-items .product-item{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .nav-texts{
+        display: none;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    .logo span{
+        margin-top: 3px;
+    }
+    header nav .nav-icons ul .hamburger{
+        display: block;
+    }
+    header nav .nav-icons ul .hamburger span{
+        width: 25px;
+        height: 3px;
+        background-color: #000;
+        display: flex;
+        margin: 5px;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+    }
+    header nav .nav-icons ul li{
+        margin: 0;
+        margin-left: 2px;
+        padding: 8px 3px;
+    }
+    header nav .nav-icons ul li img{
+        width: 70%;
+    }
+    .offcanvas-menu{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        right: 0;
+        top: 0;
+        background-color: #00000060;
+        z-index: 100;
+        transition: 0.3s ease-in;
+        -webkit-transition: 0.3s ease-in;
+        -moz-transition: 0.3s ease-in;
+        -ms-transition: 0.3s ease-in;
+        -o-transition: 0.3s ease-in;
+}
+    .offcanvas-menu .offcanvas{
+        max-width: 400px;
+        width: 0%;
+        height: 100%;
+        background-color: #fff;
+        float: right;
+        opacity: 0;
+    }
+    .offcanvas-menu .offcanvas .offcanvas-header{
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .offcanvas-menu .offcanvas .offcanvas-body{
+        padding: 20px;
+    }
+    .offcanvas-menu .offcanvas .offcanvas-body ul li{
+        display: flex;
+        flex-direction: column; 
+        
+    }
+    .offcanvas-menu .offcanvas .offcanvas-body ul li a{
+        margin-top: 30px;
+        color: #000;
+        opacity: 1;
+    }
+    main .slider-menu .slider-name h1{
+        font-size: 3em;
+    }
+    .slider-product{
+        background-size: contain;
+    }
+    .slider-product .product-2{
+        bottom: 80px;
+        width: 100px;
+    }
+    .slider-product .price{
+        padding: 10px;
+    }
+    .slider-product .price span{
+        font-size: 0.9em;
+    }
+    .slider-content .item{
+        min-width: 110px;
+        padding: 15px;
+    }
+    .slider-content .item img{
+        width: 80%;
+    }
+    .slider-content .item h4{
+        font-size: 0.8em;
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+    .musicpage .musicpagetexts h1{
+        font-size: 2.5em;
+    }
+    .categorypage{
+        margin-bottom: 0;
+    }
+    .productpage h1{
+        font-size: 2em;
+    }
+    .products{
+        grid-gap: 20px;
+    }
+    .products .product-item{
+        width: 100%;
+        width: 177px;
+    }
+    .products .product-item .item-img{
+        padding: 15px;
+    }
+    .products .product-item .item-img img{
+        width: 130px;
+    }
+    .feedbackpage h1{
+        font-size: 2em;
+    }
+    .feedback-item{
+        min-width: 250px;
+    }
+    .feedback-item .item-texts p{
+        font-size: 0.8em;
+    }
+    .wonderfullpage h1{
+        font-size: 2em;
+    }
+    .most-sold-page h1{
+        font-size: 2em;
+    }
+    .item-group .product-img img{
+        width: 80%;
+        height: 80%;
+    
+    }
+    .product-button button img{
+        width: 16px;
+    }
+    .product-img img{
+        width: 90px;
+        height: 100px;
+    }
+    .airpodspage h1{
+        font-size: 4em;
+    }
+    .airpodspage p{
+        font-size: 1.5em;
+    }
+    .collapsepage .item-sound{
+        height: 30vh;
+        padding-left: 20%;
+    }
+    .collapsepage .item-sound h1{
+        font-size: 1.7em;
+    }
+    .servicepage{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .servicepage .service-item{
+        width: 47%;
+    }
+    .macbookpage{
+        height: 90vh;
+    }
+    .macbookpage h1{
+        font-size: 9em;
+    }
+    .videopage{
+        height: 100vh;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+    .footer .footer-content{
+        width: 47%;
+        margin-top: 20px;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    header{
+        padding: 10px 45px;
+    }
+    .searchpage{
+        width: 90%;
+    }
+    main{
+        padding: 10px 45px;
+    }
+    .category-main{
+        padding: 10px 45px;
+    }
+    .musicpage-main{
+        padding: 10px 45px;
+    }
+    .productpage-main{
+        padding: 10px 45px;
+        margin-top: 130px;
+    }
+    .wonderfull-main{
+        padding: 10px 45px;
+    }
+    .feedback-main{
+        padding: 50px 45px;
+    }
+    .most-sold-main{
+        padding: 10px 45px;
+    }
+    .collapse-main{
+        padding: 10px 45px;
+    }
+    .contact-main{
+        padding: 10px 45px;
+    }
+    .service-main{
+        padding: 10px 45px;
+    }
+    main .slider-menu{
+        flex-direction: column-reverse;
+    }
+    main .slider-menu .slider-name,
+    main .slider-menu .slider-product{
+        width: 100%;
+        align-items: center;
+    }
+    main .slider-menu .slider-name h1{
+        font-size: 2.5em;
+    }
+    .slider-product .product-2{
+        bottom: 0;
+        width: 100px;
+    }
+    .slider-product img{
+        width: 50%;
+    }
+    .slider-product{
+        background-size: cover;
+    }
+    .arrow{
+        display: none;
+    }
+    .categorypage .category-arrow h1{
+        font-size: 1.5em;
+    }
+    .musicpage{
+        flex-direction: column;
+    }
+    .musicpage .musicpagetexts,
+    .musicpage .musicpageslider{
+        width: 100%;
+    }
+    .productpage h1{
+        font-size: 1.5em;
+    }
+    .products .product-item{
+        width: 47%;
+    }
+    .products .product-item .item-img img{
+        width: 140px;
+    }
+    .feedbackpage h1{
+        font-size: 1.5em;
+    }
+    .feedback-item{
+        min-width: 300px;
+    }
+    .wonderfullpage p{
+        font-size: 1.5em;
+    }
+    .most-sold-page h1{
+        font-size: 1.5em;
+    }
+    .airpodspage{
+        justify-content: flex-end;
+    }
+    .airpodspage h1{
+        font-size: 3em;
+    }
+    .airpodspage p{
+        font-size: 1.5em;
+    }
+    .airpodspage .left-picture{
+        left: 30px;
+    }
+    .airpodspage .right-picture{
+        right: 30px;
+    }
+    .airpodspage .left-picture img,
+    .airpodspage .right-picture img{
+        height: 60%;
+    }
+    .airpodspage .right-picture img{
+        top: 20%;
+    }
+    .collapsepage{
+        flex-direction: column;
+    }
+    .collapsepage .item-sound{
+        width: 100%;
+        padding-left: 40%;
+    }
+    .collapsepage .item-sound h1{
+        font-size: 1.7em;
+    }
+    .contactpage h1{
+        font-size: 2em;
+    }
+    .contactpage .input-group input{
+        width: 70%;
+    }
+    .servicepage .service-item{
+        width: 100%;
+        height: 15vh;
+    }
+    .macbookpage{
+        height: 80vh;
+    }
+    .macbookpage h1{
+        font-size: 8em;
+    }
+    .videopage{
+        height: 60vh;
+    }
+    .videopage video{
+        height: 100%;
+    }
+    footer{
+        padding: 10px 80px;
+    }
+    .footer .footer-content{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+   
+    
+}
+@media only screen and (max-width: 576px) {
+    header{
+        padding: 10px;
+    }
+    main{
+        padding: 10px;
+    }
+    main .slider-menu{
+        height: 80vh;
+    }
+    main .slider-menu .slider-name{
+        justify-content: flex-start !important;
+    }
+    main .slider-menu .slider-name h1{
+        font-size: 2em;
+        text-align: center;
+    }
+    .slider-product img{
+        width: 50%;
+    }
+    .category-main{
+        padding: 10px;
+    }
+    .musicpage-main{
+        padding: 10px;
+    }
+    .productpage-main{
+        padding: 10px;
+        margin-top: 50px;
+    }
+    .feedback-main{
+        padding: 50px;
+    }
+    .wonderfull-main{
+        padding: 10px;
+    }
+    .most-sold-main{
+        padding: 10px;
+    }
+    .collapse-main{
+        padding: 10px;
+    }
+    .contact-main{
+        padding: 10px;
+    }
+    .service-main{
+        padding: 10px;
+    }
+    .offcanvas{
+        max-width: 320px;
+    }
+    .usrpage{
+        max-width: 320px;
+    }
+    .products .product-item{
+        width: 100%;
+        max-width: 100%;
+    }
+    .categorypage .category-arrow h1{
+        font-size: 1em;
+    }
+    .musicpage{
+        padding: 25px;
+    }
+    .musicpage .musicpagetexts h1{
+        font-size: 1.5em;
+    }
+    .productpage h1{
+        font-size: 1em;
+    }
+    .feedbackpage p{
+        font-size: 0.8em;
+        margin-bottom: 10px;
+    }
+    .feedbackpage p img{
+        margin-right: 3px;
+    }
+    .feedbackpage h1{
+        font-size: 1em;
+    }
+    .feedback-item{
+        min-width: 100%;
+    }
+    .wonder-btn-group button{
+        margin: 5px;
+    }
+    .most-sold-page h1{
+        font-size: 1em;
+    }
+    .product-items .product-item{
+        height: 100%;
+        flex-direction: column;
+    }
+    .item-group{
+        flex-direction: column;
+        text-align: center;
+    }
+    .product-img{
+        width: 100%;
+        height: 400px;
+    }
+    .item-group .product-img img{
+        width: 55%;
+        height: 70%;
+    }
+    .product-texts{
+        padding: 0;
+    }
+    .product-texts .price{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .product-texts .price span{
+        margin: 0 15px;
+    }
+    .product-button{
+        flex-direction: row;
+    }
+    .product-button button{
+        width: 60px;
+        margin: 0 5px;
+    }
+    .airpodspage{
+        height: 60vh;
+    }
+    .airpodspage h1{
+        font-size: 3em;
+    }
+    .airpodspage p{
+        font-size: 1em;
+    }
+    .contactpage{
+        padding: 20px;
+    }
+    .contactpage h1{
+        font-size: 1.5em;
+    }
+    .contactpage .input-group{
+        margin-top: 20px;
+    }
+    .macbookpage{
+        height: 50vh;
+    }
+    .macbookpage h1{
+        font-size: 5em;
+    }
+    footer{
+        padding: 10px 25px;
+    }
+
+}
+@media only screen and (max-width: 400px) {
+    header{
+        padding: 10px;
+    }
+    main{
+        padding: 10px;
+    }
+    .category-main{
+        padding: 10px;
+    }
+    .musicpage-main{
+        padding: 10px;
+    }
+    .productpage-main{
+        padding: 10px;
+    }
+    .feedback-main{
+        padding: 10px;
+    }
+    .wonderfull-main{
+        padding: 10px;
+    }
+    .most-sold-main{
+        padding: 10px;
+    }
+    .airpodspage{
+        height: 60vh;
+    }
+    .collapse-main{
+        padding: 10px;
+    }
+    .contact-main{
+        padding: 10px;
+    }
+    .service-main{
+        padding: 10px;
+    }
+    footer{
+        padding: 10px;
+    }
+    .product-img{
+        height: 300px;
+    }
+    .item-group .product-img img{
+        width: 80%;
+        height: 75%;
+    }
+}
